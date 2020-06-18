@@ -1,0 +1,21 @@
+#bt{
+  margin-top: 10px;
+}
+
+label{
+  font-size: large;
+  display: inline;
+}
+
+input {
+  background-color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: auto;
+  block-size: 20px;
+  margin-top:10px;
+}
+
+ul {
+  padding-top: 5px;
+  font-size: 20px;
+}

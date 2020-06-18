@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form onsubmit="return addToList(name,phoneN,email)">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name-box" placeholder="Write your name"/>
+      <br>
+      <label for="phoneN">Phone Number</label>
+      <input type="text" name="phoneN" id="number-box" placeholder="Write your phone number"/>
+      <br>
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email-box" placeholder="Write your email"/>
+      <br>
+      <button id ="bt">Submit</button>
+    </form>
+    <br>
+    <ul id="mad">
+      <li id="nameInputted">
+        Name:
+        <ul>
+           <li id="phoneInputted">
+            Phone Number:
+          </li>
+           <li id="emailInputted">
+            Email:
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
